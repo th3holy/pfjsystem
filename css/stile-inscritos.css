@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.agregar {
+    display: flex;
+    align-items:center;
+    padding-top:50px ;
+    margin-left: 75px;
+}
+.agregar img{
+    margin: 15px;
+    width: 40px;
+}

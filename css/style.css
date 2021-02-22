@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+html, body {
+    margin:0px;
+    height:100%;
+  }
+.inscripciones{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.212),rgba(0, 0, 0, 0.219)),
+    url(../img/pfj_oeste.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.inscripciones-texto{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+.caja{
+    display: flex;
+    justify-content:space-evenly;
+    align-content:center;
+    align-items:center;
+}
+.consejero{
+    width: 325px;
+    height: 280px;
+    background-color: red;
+    background-image: url(../img/noun_people_21902.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px ;
+  
+    
+}
+.consejero:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: none;
+    font-style: normal;
+}
+.jovenes{
+    width: 325px;
+    height: 280px;
+    background-color: blue;
+    background-image: url(../img/noun_Children_235424.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px ;
+   
+    
+}
+.jovenes:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: none;
+    font-style: normal;
+}
+.consejero h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    margin: 25px 0 0 0;
+}
+.consejero h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    margin: 25px 0 0 0;
+}
+.jovenes h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    margin: 25px 0 0 0;
+}
+.jovenes h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    margin: 25px 0 0 0;
+}
+
+
+
+
+
+
+
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin: 25px 0 0 0;
+}
+
+@media (max-width: 600px) {
+    .inscripciones-texto{
+        font-size: 50px;
+    }
+    .caja{
+        margin: 10px;
+        flex-direction: column;
+        
+    }
+}
